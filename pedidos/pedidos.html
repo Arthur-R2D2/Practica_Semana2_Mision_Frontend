@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--FAV-ICON-->
+    <link  rel="icon"   href="logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div><a href="../index.html" ><img src="logo.png" width="100"></a>
+    </div>
+    <div class="container" id="registration-form">
+        <div class="image"></div>
+        <div class="frm">
+            <h1>Realiza tu pedido</h1>
+            <form>
+                <div class="form-group">
+                    <label for="username">Nombre completo:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Escriba su nombre">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="phone" class="form-control" id="phone" placeholder="Escriba su teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Escriba su correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="adress">Dirección:</label>
+                    <input type="address" class="form-control" id="adress" placeholder="Escriba su dirección">
+                </div>
+                <h2>Escoga el sabor de su pastel</h2>   
+                    <select name="pastel">
+                        <option value="0"></option>
+                        <option value="1">Pastel de frutos rojos</option>
+                        <option value="2">Pastel de chocolate</option>
+                        <option value="3">Pastel de fresa</option>
+                        <option value="4">Pay de manzana</option>
+                    </select>
+                <h2>Escoga un sabor adicional</h2> 
+                <p>(opcional)</p>
+                <div class="row">
+                    <div class="col-sm-3">
+                    <label for="adress">Frutos rojos</label>
+                    <input type="checkbox">
+                    <label for="adress">Chocolate</label>
+                    <input type="checkbox">
+                    </div>
+                    <div class="col-lg-3">
+                    <label for="adress">Manzana</label>
+                    <input type="checkbox">
+                    <label for="adress">Fresa</label>
+                    <input type="checkbox">
+                    </div>
+            </div>
+            <h2>Escoga un adorno</h2> 
+                <p>(opcional)</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                    <label for="adress">Nombre y felicitación</label>
+                    <input type="checkbox">
+                    <label for="adress">Conejitos de chocolate</label>
+                    <input type="checkbox">
+                    </div>
+                    <div class="col-sm-6">
+                    <label for="adress">Fresas bañadas en chocolate</label>
+                    <input type="checkbox">
+                    <label for="adress">Kinder bueno</label>
+                    <input type="checkbox">
+                    </div>
+                </div>
+            <hr>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger btn-lg">Realizar pedido</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
