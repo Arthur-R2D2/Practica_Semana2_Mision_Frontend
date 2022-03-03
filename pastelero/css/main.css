@@ -259,22 +259,22 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Nombre";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
+    content: "Teléfono";
   }
   table tbody tr td:nth-child(3):before {
-    content: "Name";
+    content: "Correo electrónico";
   }
   table tbody tr td:nth-child(4):before {
-    content: "Price";
+    content: "Pastel";
   }
   table tbody tr td:nth-child(5):before {
-    content: "Quantity";
+    content: "Sabor adicional";
   }
   table tbody tr td:nth-child(6):before {
-    content: "Total";
+    content: "Adorno";
   }
 
   .column4,
@@ -296,6 +296,19 @@ tbody tr:hover {
     font-size: 14px;
   }
 }
+table tbody tr.table2 td:nth-child(1):before {
+  content: "Pastel";
+}
+table tbody tr.table2 td:nth-child(2):before {
+  content: "Piezas restantes";
+}
+table tbody tr.table2 td:nth-child(3):before {
+  content: "Adorno";
+}
+table tbody tr.table2 td:nth-child(4):before {
+  content: "Piezas restantes";
+}
+
 h2 {
   color: #fff;
   text-align: center;
