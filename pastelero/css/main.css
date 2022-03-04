@@ -156,6 +156,7 @@ table tbody tr {
 table tbody tr:last-child {
   border: 0;
 }
+
 table td, table th {
   text-align: left;
 }
@@ -295,9 +296,15 @@ tbody tr:hover {
   tbody tr {
     font-size: 14px;
   }
+  
 }
+/*//////////////////////////////////////////////////////////////////
+TABLE 2*/
+
+
+
 table tbody tr.table2 td:nth-child(1):before {
-  content: "Pastel";
+  content: "Sabor";
 }
 table tbody tr.table2 td:nth-child(2):before {
   content: "Piezas restantes";
