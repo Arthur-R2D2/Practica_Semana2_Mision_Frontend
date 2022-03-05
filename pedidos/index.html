@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <!--FAV-ICON-->
-    <link  rel="icon"   href="logo.png" type="image/png" />
+    <link  rel="icon"   href="logo.png" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Pedidos</title>
@@ -13,7 +13,6 @@
 
 <body>
     <div><a href="../index.html" ><img src="logo.png" width="100"></a>
-    </div>
     <div class="container" id="registration-form">
         <div class="image"></div>
         <div class="frm">
@@ -35,8 +34,8 @@
                     <label for="adress">Dirección:</label>
                     <input type="address" class="form-control" id="adress" placeholder="Escriba su dirección">
                 </div>
-                <h2>Escoga el sabor de su pastel</h2>  
                 <div class="form-group">
+                    <h2>Escoja el sabor de su pastel</h2> 
                     <select name="pastel">
                         <option value="0"></option>
                         <option value="1">Pastel de frutos rojos</option>
@@ -44,40 +43,44 @@
                         <option value="3">Pastel de fresa</option>
                         <option value="4">Pay de manzana</option>
                     </select>
-                </div>  
-                <h2>Escoga un sabor adicional</h2> 
-                <p>(opcional)</p>
-                <div class="row">
-                    <div class="col-sm-4">
-                    <label for="adress">Frutos rojos</label>
-                    <input type="checkbox">
-                    <label for="adress">Chocolate</label>
-                    <input type="checkbox">
+                </div>
+                <div class="form-group">
+                    <h2>Escoja un sabor adicional</h2>
+                    <p>(opcional)</p>
+                    <div class="row">
+                    <div class="col-sm-6">
+                        <label for="adress">Frutos rojos</label>
+                        <input type="checkbox">
+                        <label for="adress">Chocolate</label>
+                        <input type="checkbox">
                     </div>
                     <div class="col-lg-4">
-                    <label for="adress">Manzana</label>
-                    <input type="checkbox">
-                    <label for="adress">Fresa</label>
-                    <input type="checkbox">
+                        <label for="adress">Manzana</label>
+                        <input type="checkbox">
+                        <label for="adress">Fresa</label>
+                        <input type="checkbox">
                     </div>
-            </div>
-            <h2>Escoga un adorno</h2> 
-                <p>(opcional)</p>
-                <div class="row">
-                    <div class="col-sm-7">
-                    <label for="adress">Nombre y felicitación</label>
-                    <input type="checkbox">
-                    <label for="adress">Conejitos de chocolate</label>
-                    <input type="checkbox">
-                    </div>
-                    <div class="col-sm-8">
-                    <label for="adress">Fresas bañadas enchocolate</label>
-                    <input type="checkbox">
-                    <label for="adress">Kinder bueno</label>
-                    <input type="checkbox">
                     </div>
                 </div>
-                <div class="button">
+                <div class="form-group">
+                    <h2>Escoja un adorno</h2> 
+                    <p>(opcional)</p>
+                    <div class="row">
+                    <div class="col-sm-8">
+                        <label for="adress">Nombre y felicitación</label>
+                        <input type="checkbox">
+                        <label for="adress">Conejitos de chocolate</label>
+                        <input type="checkbox">
+                        </div>
+                        <div class="col-sm-10">
+                        <label for="adress">Fresas bañadas enchocolate</label>
+                        <input type="checkbox">
+                        <label for="adress">Kinder bueno</label>
+                        <input type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
                     <button type="submit" class="btn btn-danger btn-lg">Realizar pedido</button>
                 </div>
             </form>
